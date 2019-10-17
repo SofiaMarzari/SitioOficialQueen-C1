@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sitio Oficial Queen</title>
+    <link rel="stylesheet" href="css/queenEstilo.css">
+</head>
+<body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <header>
+        <h1>Sitio Oficial Queen</h1>
+        <img src="css/img/logo.jpg" alt="logoQueen">
+    </header>
+    <nav>
+        <ul>
+            <li id="js-navInicio">Inicio</li>
+            <li id="js-navBiografias">Biografias</li>
+            <li id="js-navTienda">Tienda</li>
+            <li id="js-navAlbums">Albums</li>
+            <li id="js-navSuscripcion">Suscripcion</li>
+        </ul>
+    </nav>
+    <div id="contenedorParaAjax">
+        <section id="sectionIntroduccion">
+            <p>¡Bienvenidos!</p>
+        </section>
+        <section id="sectionGaleria">
+            <button id="btnGaleriaAtras"> << </button>
+            <figure>
+                <img id="galeriaImg" src="css/img/galeria1.jpg" alt="imagen galeria">
+            </figure>
+            <button id="btnGaleriaSiguiente"> >> </button>
+        </section>
+        <section id="sectionTabla">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Gira 2019</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaTBody">
+                  
+                </tbody>   
+            </table>
+        </section>
+        <section id="sectionFormTabla">
+            <form>
+                <label for="lugarGira">Lugar:
+                    <input id="inputFormGiraTablePais" type="text" name="" value="">
+                </label>
+                <label for="fechaGira">Fecha:
+                    <input id="inputFormGiraTableFecha" type="text" name="" value="">
+                </label>
+            </form>
+            <button id="btnEnviarFormTabla">Cargar</button>
+            <button id="btnItems">Items</button>
+            <button id="btnVaciarTabla">Vaciar tabla</button>
+            <select name="meses" id="selectOpciones">
+                <option class="opcion" value="enero">Enero</option>
+                <option class="opcion" value="febrero">Febrero</option>
+                <option class="opcion" value="marzo">Marzo</option>
+                <option class="opcion" value="abril">Abril</option>
+                <option class="opcion" value="Mayo">Mayo</option>
+                <option class="opcion" value="junio">Junio</option>
+                <option class="opcion" value="julio">Julio</option>
+                <option class="opcion" value="agosto">Agosto</option>
+                <option class="opcion" value="septiembre">Septiembre</option>
+                <option class="opcion" value="octubre">Octubre</option>
+                <option class="opcion" value="noviembre">Noviembre</option>
+                <option class="opcion" value="diciembre">Diciembre</option>
+            </select>
+            <button id="buscar">Buscar</button>
+        </section>
+        <section id="sectionNoticias">
+            <article class="is-articleNoticias">
+                <h3><a href="https://elpais.com/elpais/2019/02/19/icon/1550572342_202515.html">¿Qué fue del villano de 'Bohemian Rhapsody', el hombre que traicionó a Freddie Mercury?</a></h3>
+                <p>El actor que encarnó a Freddie Mercury en la cinta admite que el despido de Bryan Singer "era algo que tenía que hacerse"...</p>
+                <img src="css/img/noticia1.jpg" alt="noticia uno">
+            </article>
+            <article class="is-articleNoticias">
+                <h3><a href="http://elpais.com/elpais/2019/02/04/gente/1549279167_359571.html">Rami Malek habla sobre el director de 'Bohemian Rhapsody', acusado de agresión sexual</a></h3>
+                <p>El actor que encarnó a Freddie Mercury en la cinta admite que el despido de Bryan Singer "era algo que tenía que hacerse"...</p>
+                <img src="css/img/noticia2.jpg" alt="noticia dos">
+            </article>
+            <article class="is-articleNoticias">
+                <h3><a href="http://elpais.com/elpais/2019/01/30/gente/1548845902_267294.html">Rami Malek revive la relación que unió a Freddie Mercury y Lady Di</a></h3>
+                <p>"Me contaron que Freddy llevó a un bar a la princesa Diana y la disfrazó como un hombre", relata el actor...</p>
+                <img src="css/img/noticia3.jpg" alt="noticia tres">
+            </article>
+            <article class="is-articleNoticias">
+                <h3><a href="https://www.abc.es/cultura/musica/abci-cirugia-mas-estrambotica-y-cara-sometio-freddie-mercury-201905230135_noticia.html">La cirugía más estrambótica y cara a la que se sometió Freddie Mercury</a></h3>
+                <p>Según el exmánager de Queen, John Reid, el célebre cantante podría haber utilizado parte de su fortuna para arreglarse una parte de su cara muy reconocible. . .</p>
+                <img src="css/img/noticia4.jpg" alt="noticia cuatro">
+            </article>
+        </section>
+    </div>
+    <script src="js/jsQueen.js"></script>
+</body>
+</html>
