@@ -221,31 +221,6 @@ function buscar(){
        }
     }
 }
-/*FILTRO DE JOR*/
-/*
-let busqueda= document.getElementById('buscar')
-busqueda.addEventListener('click',hacerBusqueda);
-function IniciarBusqueda() {
-    
-    for (let i =0 ; i <= 12; i++) {
-        celdas = registroTabla.rows[i].getElementsByTagName('td');
-        encontrado = false;
-  
-           
-            if (buscarMes.length == 0 || (comparaCon.indexOf(buscarMes) > -1)) {
-                encontrado = true;
-            }
-        }
-        if (encontrado) {
-          registroTabla.rows[i].classList.remove('js-ocultar');
-           registroTabla.rows[i].classList.add('js-mostrar');
-        } else{
-          registroTabla.rows[i].classList.remove('js-mostrar');
-          registroTabla.rows[i].classList.add('js-ocultar');
-        }
-    }
-  }
- */
 
 /*ITEMS*/
 btnItems.addEventListener('click', cargarItems);
@@ -358,7 +333,7 @@ $('body').on('click', '#btnGaleriaAtras', function(){
 inicioNav.addEventListener('click', loadInicio);
 function loadInicio(event){
     event.preventDefault();   
-    fetch('../09-Sofia Marzari-Jorgelina Aparicio/inicio.html').then(
+    fetch('../SitioOficialQueen/inicio.html').then(
         function(response){
             if(response.ok){
                 response.text().then(
@@ -383,7 +358,7 @@ function loadInicio(event){
 suscripcionNav.addEventListener('click', loadSuscripcion);
 function loadSuscripcion(event2){
    event2.preventDefault();
-   fetch('../09-Sofia Marzari-Jorgelina Aparicio/suscripcion.html').then(
+   fetch('../SitioOficialQueen/suscripcion.html').then(
        function(response){
            if(response.ok){
                response.text().then(
@@ -403,7 +378,7 @@ function loadSuscripcion(event2){
 biografiaNav.addEventListener('click', loadBiografias);
 function loadBiografias(event3){
     event3.preventDefault();
-    fetch('../09-Sofia Marzari-Jorgelina Aparicio/biografia.html').then(
+    fetch('../SitioOficialQueen/biografia.html').then(
         function(response){
             if(response.ok){
                 response.text().then(
@@ -423,7 +398,7 @@ function loadBiografias(event3){
 tiendaNav.addEventListener('click', loadTienda);
 function loadTienda(event4){
     event4.preventDefault();
-    fetch('../09-Sofia Marzari-Jorgelina Aparicio/tienda.html').then(
+    fetch('../SitioOficialQueen/tienda.html').then(
         function(response){
             if(response.ok){
                 response.text().then(
@@ -443,7 +418,7 @@ function loadTienda(event4){
 albumesNav.addEventListener('click', loadAlbumes);
 function loadAlbumes(event5){
     event5.preventDefault();
-    fetch('../09-Sofia Marzari-Jorgelina Aparicio/albumes.html').then(
+    fetch('../SitioOficialQueen/albumes.html').then(
         function(response){
             if(response.ok){
                 response.text().then(
