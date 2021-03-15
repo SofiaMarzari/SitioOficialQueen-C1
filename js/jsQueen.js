@@ -221,7 +221,7 @@ function buscar(){
        }
     }
 }
-/*AAAAAAAAAAAAAAAAAAAA */
+
 /*ITEMS*/
 btnItems.addEventListener('click', cargarItems);
 function cargarItems(){
